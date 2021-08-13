@@ -96,64 +96,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Rotary_Encoder_Switch
+# bacca40-rescue_ATMEGA32U4-keyboard_parts-Ori-rescue
 #
-DEF Device_Rotary_Encoder_Switch SW 0 10 Y N 1 F N
-F0 "SW" 0 260 50 H V C CNN
-F1 "Device_Rotary_Encoder_Switch" 0 -260 50 H V C CNN
-F2 "" -150 160 50 H I C CNN
-F3 "" 0 260 50 H I C CNN
-$FPLIST
- RotaryEncoder*Switch*
-$ENDFPLIST
-DRAW
-A -15 -2 108 -899 899 0 1 10 N -15 -110 -15 105
-C -150 0 10 0 1 0 F
-C -15 0 75 0 1 10 N
-C 170 -40 5 0 1 10 N
-C 170 40 5 0 1 10 N
-S -200 200 200 -200 0 1 10 f
-P 2 0 1 10 -25 -70 -25 70 N
-P 2 0 1 10 -15 -70 -15 70 N
-P 2 0 1 10 -5 70 -5 -70 N
-P 2 0 1 10 150 0 135 0 N
-P 2 0 1 10 150 40 150 -40 N
-P 3 0 1 0 -200 -100 -150 -100 -150 -80 N
-P 3 0 1 0 -200 100 -150 100 -150 80 N
-P 3 0 1 10 10 -120 -20 -110 5 -95 N
-P 3 0 1 10 10 115 -20 105 5 90 N
-P 3 0 1 10 200 -100 170 -100 170 -40 N
-P 3 0 1 10 200 100 170 100 170 40 N
-P 4 0 1 0 -200 0 -150 0 -150 -40 -130 -80 N
-P 4 0 1 0 -170 0 -150 0 -150 40 -130 80 N
-X A A -300 100 100 R 50 50 1 1 P
-X B B -300 -100 100 R 50 50 1 1 P
-X C C -300 0 100 R 50 50 1 1 P
-X S1 S1 300 100 100 L 50 50 1 1 P
-X S2 S2 300 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# Ori-rescue_ATMEGA32U4-keyboard_parts
-#
-DEF Ori-rescue_ATMEGA32U4-keyboard_parts U 0 40 Y Y 1 F N
+DEF bacca40-rescue_ATMEGA32U4-keyboard_parts-Ori-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 -1250 60 H V C CNN
-F1 "Ori-rescue_ATMEGA32U4-keyboard_parts" 0 1250 60 H V C CNN
+F1 "bacca40-rescue_ATMEGA32U4-keyboard_parts-Ori-rescue" 0 1250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -205,11 +152,11 @@ X PB1/SCK 9 -1050 250 300 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Ori-rescue_AVR-ISP-6_mod-Connector
+# bacca40-rescue_AVR-ISP-6_mod-Connector-Ori-rescue
 #
-DEF Ori-rescue_AVR-ISP-6_mod-Connector J 0 40 Y Y 1 F N
+DEF bacca40-rescue_AVR-ISP-6_mod-Connector-Ori-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 400 50 H V L CNN
-F1 "Ori-rescue_AVR-ISP-6_mod-Connector" 0 -300 50 H V L CNN
+F1 "bacca40-rescue_AVR-ISP-6_mod-Connector-Ori-rescue" 0 -300 50 H V L CNN
 F2 "" -250 50 50 V I C CNN
 F3 "" -1275 -550 50 H I C CNN
 $FPLIST
@@ -233,11 +180,11 @@ X GND 6 -100 -400 150 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Ori-rescue_D-keyboard_parts
+# bacca40-rescue_D-keyboard_parts-Ori-rescue
 #
-DEF Ori-rescue_D-keyboard_parts D 0 40 Y Y 1 F N
+DEF bacca40-rescue_D-keyboard_parts-Ori-rescue D 0 40 Y Y 1 F N
 F0 "D" -150 -50 60 V V C CNN
-F1 "Ori-rescue_D-keyboard_parts" 150 -50 60 V I C CNN
+F1 "bacca40-rescue_D-keyboard_parts-Ori-rescue" 150 -50 60 V I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -248,11 +195,11 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ori-rescue_KEYSW-keyboard_parts
+# bacca40-rescue_KEYSW-keyboard_parts-Ori-rescue
 #
-DEF Ori-rescue_KEYSW-keyboard_parts K? 0 40 Y Y 1 F N
+DEF bacca40-rescue_KEYSW-keyboard_parts-Ori-rescue K? 0 40 Y Y 1 F N
 F0 "K?" -50 0 60 H V C CNN
-F1 "Ori-rescue_KEYSW-keyboard_parts" 0 -100 60 H I C CNN
+F1 "bacca40-rescue_KEYSW-keyboard_parts-Ori-rescue" 0 -100 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -264,11 +211,11 @@ X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ori-rescue_LED-keyboard_parts
+# bacca40-rescue_LED-keyboard_parts-Ori-rescue
 #
-DEF Ori-rescue_LED-keyboard_parts LED 0 40 Y N 1 F N
+DEF bacca40-rescue_LED-keyboard_parts-Ori-rescue LED 0 40 Y N 1 F N
 F0 "LED" 0 100 50 H V C CNN
-F1 "Ori-rescue_LED-keyboard_parts" 0 -100 50 H V C CNN
+F1 "bacca40-rescue_LED-keyboard_parts-Ori-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -290,11 +237,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ori-rescue_Power_Protection_USBLC6-2SC6-shark-cache
+# bacca40-rescue_Power_Protection_USBLC6-2SC6-shark-cache-Ori-rescue
 #
-DEF Ori-rescue_Power_Protection_USBLC6-2SC6-shark-cache U 0 0 Y Y 1 F N
+DEF bacca40-rescue_Power_Protection_USBLC6-2SC6-shark-cache-Ori-rescue U 0 0 Y Y 1 F N
 F0 "U" 200 350 50 H V C CNN
-F1 "Ori-rescue_Power_Protection_USBLC6-2SC6-shark-cache" 400 -400 50 H V C CNN
+F1 "bacca40-rescue_Power_Protection_USBLC6-2SC6-shark-cache-Ori-rescue" 400 -400 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" -750 400 50 H I C CNN
 F3 "" 200 350 50 H I C CNN
 $FPLIST
@@ -340,11 +287,11 @@ X IO1 6 -500 100 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ori-rescue_SW_PUSH-keyboard_parts
+# bacca40-rescue_SW_PUSH-keyboard_parts-Ori-rescue
 #
-DEF Ori-rescue_SW_PUSH-keyboard_parts SW 0 40 N N 1 F N
+DEF bacca40-rescue_SW_PUSH-keyboard_parts-Ori-rescue SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "Ori-rescue_SW_PUSH-keyboard_parts" 0 -80 50 H V C CNN
+F1 "bacca40-rescue_SW_PUSH-keyboard_parts-Ori-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -355,11 +302,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# Ori-rescue_TYPE-C-31-M12_13-acheronSymbols
+# bacca40-rescue_TYPE-C-31-M12_13-acheronSymbols-Ori-rescue
 #
-DEF Ori-rescue_TYPE-C-31-M12_13-acheronSymbols J 0 40 Y Y 1 F N
+DEF bacca40-rescue_TYPE-C-31-M12_13-acheronSymbols-Ori-rescue J 0 40 Y Y 1 F N
 F0 "J" -50 1400 50 H V L CNN
-F1 "Ori-rescue_TYPE-C-31-M12_13-acheronSymbols" 400 1300 50 H V R CNN
+F1 "bacca40-rescue_TYPE-C-31-M12_13-acheronSymbols-Ori-rescue" 400 1300 50 H V R CNN
 F2 "acheronConnectors:TYPE-C-31-M-12" -500 50 50 V I C CNN
 F3 "" 200 50 50 H I C CNN
 $FPLIST
