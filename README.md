@@ -5,6 +5,9 @@
 #### Why tho? 
 Don't let your memes be dreams
 
+#### Does it have split spacebar?
+No
+
 #### Does it have backlighting?
 No
 
