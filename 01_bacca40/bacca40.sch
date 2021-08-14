@@ -241,20 +241,18 @@ Text GLabel 2800 6900 2    50   BiDi ~ 0
 DBUS+
 Text GLabel 2800 6600 2    50   BiDi ~ 0
 DBUS-
-Text GLabel 7450 6000 2    50   Output ~ 0
-row1
-Text GLabel 5300 7400 0    50   Output ~ 0
-col2
+Text GLabel 7450 6600 2    50   Output ~ 0
+col1
 Text GLabel 5300 6400 0    50   Output ~ 0
-col3
+col2
 Text GLabel 5300 6200 0    50   Output ~ 0
-col11
-Text GLabel 5300 6100 0    50   Output ~ 0
 col10
-Text GLabel 5300 6000 0    50   Output ~ 0
+Text GLabel 5300 6100 0    50   Output ~ 0
 col9
-Text GLabel 5300 5300 0    50   Output ~ 0
+Text GLabel 5300 6000 0    50   Output ~ 0
 col8
+Text GLabel 5300 5300 0    50   Output ~ 0
+col7
 Text GLabel 7450 6100 2    50   Output ~ 0
 row0
 $Comp
@@ -269,11 +267,11 @@ F 3 "" H 7450 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 7450 5800 2    50   Output ~ 0
-col5
+col4
 Text GLabel 7450 5700 2    50   Output ~ 0
-col6
+col5
 Text GLabel 7450 5600 2    50   Output ~ 0
-col7
+col6
 NoConn ~ 7450 5500
 Text GLabel 5300 9300 2    50   BiDi ~ 0
 D+
@@ -427,11 +425,9 @@ F 3 "~" H 5150 8200 50  0001 C CNN
 	1    5150 8200
 	0    1    1    0   
 $EndComp
-Text GLabel 7450 5900 2    50   Output ~ 0
-col4
-Text GLabel 7450 7100 2    50   Output ~ 0
-row3
 Text GLabel 7450 7200 2    50   Output ~ 0
+row3
+Text GLabel 7450 6500 2    50   Output ~ 0
 row2
 $Comp
 L Device:C_Small C6
@@ -451,9 +447,9 @@ Wire Notes Line
 Text GLabel 4800 6650 0    50   Input ~ 0
 ISP_Reset
 Text GLabel 13350 1700 1    50   Input ~ 0
-col0
+col11
 Text GLabel 5300 6300 0    50   Output ~ 0
-col0
+col11
 Wire Wire Line
 	4950 6500 4950 6650
 Wire Wire Line
@@ -1715,7 +1711,7 @@ U 1 1 5DBF7B8C
 P 7900 3900
 F 0 "K40" H 7900 3900 60  0000 C CNN
 F 1 "KEYSW" H 7900 3800 60  0001 C CNN
-F 2 "Keebio-Parts:MX_Plate_625H" H 7900 3900 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_625H" H 7900 3900 60  0001 C CNN
 F 3 "" H 7900 3900 60  0000 C CNN
 	1    7900 3900
 	1    0    0    -1  
@@ -1807,33 +1803,29 @@ Wire Wire Line
 	11650 2500 11650 3200
 Connection ~ 11650 2500
 Text GLabel 4000 1700 1    50   Input ~ 0
-col1
+col0
 Text GLabel 4850 1700 1    50   Input ~ 0
-col2
-Text GLabel 5700 1700 1    50   Input ~ 0
-col3
-Text GLabel 6550 1700 1    50   Input ~ 0
-col4
-Text GLabel 7400 1700 1    50   Input ~ 0
-col5
-Text GLabel 8250 1700 1    50   Input ~ 0
-col6
-Text GLabel 9100 1700 1    50   Input ~ 0
-col7
-Text GLabel 9950 1700 1    50   Input ~ 0
-col8
-Text GLabel 10800 1700 1    50   Input ~ 0
-col9
-Text GLabel 11650 1700 1    50   Input ~ 0
-col10
-Text GLabel 12500 1700 1    50   Input ~ 0
-col11
-Text GLabel 5300 7200 0    50   Output ~ 0
-enc0b
-Text GLabel 5300 7300 0    50   Output ~ 0
-enc0a
-Text GLabel 7450 7000 2    50   Output ~ 0
 col1
+Text GLabel 5700 1700 1    50   Input ~ 0
+col2
+Text GLabel 6550 1700 1    50   Input ~ 0
+col3
+Text GLabel 7400 1700 1    50   Input ~ 0
+col4
+Text GLabel 8250 1700 1    50   Input ~ 0
+col5
+Text GLabel 9100 1700 1    50   Input ~ 0
+col6
+Text GLabel 9950 1700 1    50   Input ~ 0
+col7
+Text GLabel 10800 1700 1    50   Input ~ 0
+col8
+Text GLabel 11650 1700 1    50   Input ~ 0
+col9
+Text GLabel 12500 1700 1    50   Input ~ 0
+col10
+Text GLabel 7450 7100 2    50   Output ~ 0
+col0
 Text GLabel 2800 4250 0    50   Input ~ 0
 row3
 Text GLabel 2800 3550 0    50   Input ~ 0
@@ -2284,13 +2276,13 @@ Text GLabel 6550 9050 3    50   Input ~ 0
 col10
 Text GLabel 6850 9050 3    50   Input ~ 0
 ISP_Reset
-Text GLabel 7450 6600 2    50   Output ~ 0
+Text GLabel 5300 7300 0    50   Output ~ 0
 col12
-NoConn ~ 7450 6500
+NoConn ~ 7450 7000
 NoConn ~ 7450 6700
 NoConn ~ 7450 6800
 NoConn ~ 7450 6900
-NoConn ~ 5300 7100
+NoConn ~ 5300 7200
 NoConn ~ 5300 7000
 Connection ~ 3300 2150
 Connection ~ 3300 2850
@@ -2448,4 +2440,9 @@ Wire Wire Line
 Connection ~ 7550 4250
 Wire Wire Line
 	7550 4250 10950 4250
+NoConn ~ 5300 7100
+Text GLabel 7450 5900 2    50   Output ~ 0
+col3
+Text GLabel 7450 6000 2    50   Output ~ 0
+row1
 $EndSCHEMATC
